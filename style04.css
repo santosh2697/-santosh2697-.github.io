@@ -1,0 +1,21 @@
+.skills li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.skills a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.skills button{
+    background-color: white;
+}
+.skills button:hover{
+    background-color: skyblue;
+}
+.skills{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+}

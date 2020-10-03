@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    color: rgb(52, 248, 52);
+}
+.subhead{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.nxsketch{
+    width: 30%;
+    position: absolute;
+    left: 18%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+}
+.nxmodeling{
+    width: 30%;
+    position: absolute;
+    left: 51%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+}
+.nxassembly{
+    width: 30%;
+    position: absolute;
+    left: 83%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+}
+.sketchinfo{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 18%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+.modelinginfo{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 51%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+.assemblyinfo{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 80%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+
+/*end of nx*/
+
+.skills li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.skills a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.skills button{
+    background-color: white;
+}
+.skills button:hover{
+    background-color: skyblue;
+}
+.skills{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+}

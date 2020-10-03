@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+}
+
+h1,h2,h3,p{
+    text-align: center;
+
+}
+ul{
+    
+    list-style-position: inside;
+    font-size: 18px;
+    color:white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 22px;
+}
+h1,h2,h3{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(47, 243, 47);
+}
+.hobbies li{
+    display: inline-block;
+    padding-right: 160px;
+    margin-left: 180px;
+}
+.hobbies, .hobbies li {
+
+    padding-top: 130px;
+}
+
+.music{
+    width: 21%;
+    position: absolute;
+    left: 82%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.football{
+    width: 27%;
+    position: absolute;
+    left: 18%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+}
+.movie{
+    width: 22%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+}

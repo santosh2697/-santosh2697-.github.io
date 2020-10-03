@@ -1,0 +1,30 @@
+body{
+    background-image:linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("pen.jpg");
+    background-size: cover;
+}
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+        .navi{
+            float: right;
+        }
+        .navi, .navi li{
+            display: inline-block;
+        }
+        .navi, .navi li, .navi a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 8px;
+        font-size: 20px;
+        }
+        .navi li{
+            border: 1px solid transparent white;
+        }
+        .navi li:hover,.navi a:hover{
+            background-color: skyblue;
+            color: black;
+        }
+
+
